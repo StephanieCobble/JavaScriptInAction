@@ -111,4 +111,48 @@
 
 //Magic Number
 
+// let magicNumber = 50;
+// let guess = 0;
+
+// while(guess != magicNumber) {
+//     guess = prompt('Enter your best guess for the magic number!')
+//     if(guess == magicNumber) {
+//         alert(`${magicNumber} - Yes! You guessed correctly!!`) 
+//     } else if(guess > magicNumber) {
+//         console.log('Too high!')
+//         if(guess <= magicNumber + 10) {
+//             console.log('Getting Warmer!')
+//         }
+//     } else if(guess < magicNumber) {
+//         console.log('Too low!')
+//         if (guess >= magicNumber - 10) {
+//             console.log('Getting Warmer!')
+//         }
+//     } else {
+//         console.log('Invalid input! Try again.')
+//     }
+// }
+
+let magicNumber = (Math.floor(Math.random()*100)); //reworked with random
+let guess = 0;
+
+while(guess != magicNumber) {
+    guess = prompt('Enter your best guess for the magic number!')
+    if(guess == magicNumber) {
+        alert(`${magicNumber} - Yes! You guessed correctly!!`) 
+    } else if(guess > magicNumber) {
+        console.log('Too high!')
+        if(guess <= magicNumber + 10) {
+            console.log('Getting Warmer!')
+        }
+    } else if(guess < magicNumber) {
+        console.log('Too low!')
+        if (guess >= magicNumber - 10) {
+            console.log('Getting Warmer!')
+        }
+    } else {
+        console.log('Invalid input! Try again.')
+    }
+}
+
 
