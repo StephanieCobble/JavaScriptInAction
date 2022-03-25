@@ -66,3 +66,49 @@
 // }
 
 //While Loops
+
+// while(isInstructorIsAwesome) {
+//   //logic
+// }
+
+// //Functions: 1 Favorite Movie (void funtions)
+
+// function printMovieName(movie) {
+//     var favoriteMovie = movie;
+//     return favoriteMovie;
+// }
+// let myFavoriteMovie = "deadpool";
+// console.log(myFavoriteMovie);
+
+// //Functions: 2 Favorite Band (return functions)
+// function yourFaveBand() {
+//     var favoriteMovie = prompt("Please enter your favorite band!");
+//     console.log(favoriteMovie);
+// }
+// yourFaveBand();
+
+// //Functions: 3 Concert (params)
+// let musicalAct = prompt('Please enter your favorite band or artist.')
+// function concertDisplay(musicalAct) {
+//     let myStreet = prompt('Please enter what street you live on.');
+//     //let musicalAct = prompt('Please enter your favorite band or artist.')
+//     console.log(`It would be great it ${musicalAct} played a show on ${myStreet}!`);
+// }
+// concertDisplay(musicalAct);
+
+// //Arrays
+
+// function desktop() {
+//     var desktopItems = ["pens", "pencils", "lamp"];
+//     console.log(desktopItems[1]);
+//     desktopItems.push('Infinity Gauntlet');
+//     for(let i=0; i<desktopItems.length; i++){
+//         console.log(desktopItems[i]);
+//     }
+// }
+// desktop();
+
+
+//Magic Number
+
+
